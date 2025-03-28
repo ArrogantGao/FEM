@@ -15,3 +15,18 @@ the marginal probability. Please refer to the [customize examples](examples/cust
 for further details.
 
 You can run the jupyter notebooks in [benchmarks](/benchmarks) to reproduce the main results presented in the paper.
+
+
+## Installation
+
+One can use conda to install the package with the following commands:
+```bash
+conda env create -f environment.yml
+```
+this will create an environment named `fem` with all the dependencies except for the pytorch, then activate the environment with `conda activate fem`.
+
+Then `pytorch` have to be installed manually with 
+```bash
+pip3 install torch torchvision torchaudio
+```
+see the [pytorch website](https://pytorch.org/) for more details.
